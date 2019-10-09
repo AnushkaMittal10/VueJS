@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>My first vue practise code</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+<body>
+    <div id= "app">
+        <p> {{ m1 }} </p> 
+        <p> {{ m2 }}</p>
+        <p> {{ m3 }}</p>
+        <p> {{ m4 }}</p>
+        <p> {{ message }}</p>
+    </div>
+    <script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            m1: 'Hello Vue',
+            m2: 'I am Anushka',
+            m3: 'I am starting with vue today',
+            m4: 'This is my first code in vue js',
+            message: ''       
+        }
+    });
+    </script>
+</body>
+</html>
+
+
